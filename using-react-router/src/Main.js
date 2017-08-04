@@ -1,3 +1,4 @@
+// @flow
 import React from "react";
 import Initial from "./Initial";
 import About from "./About";

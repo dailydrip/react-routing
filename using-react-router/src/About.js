@@ -1,6 +1,8 @@
+//@flow
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import { Link } from "react-router-dom";
 
 class About extends Component {
   render() {
@@ -10,6 +12,9 @@ class About extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>About Page</h2>
         </div>
+        <ul>
+          <li><Link to="/">Go Back</Link></li>
+        </ul>
         <p className="App-intro">
           This is the About Page
         </p>
